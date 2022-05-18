@@ -1,7 +1,7 @@
 import './card.styles.css'
 
 
-const Card = ({monster}) => {
+const Card = ({ monster }) => {
 
     const { id, name, email } = monster;
     return (
@@ -14,7 +14,7 @@ const Card = ({monster}) => {
         </div>
     )
 
-    }
+}
 
 
 export default Card;
